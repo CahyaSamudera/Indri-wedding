@@ -1,0 +1,57 @@
+.penutup {
+  height: 100%;
+}
+.penutup-section {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+.penutup-section .box-penutup {
+  position: relative;
+  max-width: 800px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  color: #000;
+}
+.penutup-section .box-penutup:before {
+  content: '';
+  position: absolute;
+  filter: blur(4px);
+}
+.penutup p {
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+.penutup p.surat {
+  text-align: justify;
+}
+.penutup p.ayat {
+  font-style: italic;
+  font-weight: bold;
+}
+.penutup p.salam-akhir {
+  font-style: italic;
+}
+.penutup h3 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+.penutup .penutup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 65px;
+  transition: 0.3s all ease-in-out;
+}
+.penutup .penutup-button button {
+  color: #000 !important;
+}
+.penutup .penutup-button button:hover {
+  transform: scale(1.1);
+}

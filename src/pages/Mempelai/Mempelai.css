@@ -1,0 +1,78 @@
+.mempelai {
+  height: 100%;
+}
+.ring-section {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+.ring-section .box-ring {
+  position: relative;
+  max-width: 800px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  color: #000;
+}
+.ring-section .box-ring:before {
+  content: '';
+  position: absolute;
+  filter: blur(4px);
+}
+.ring-section .box-ring h2 {
+  text-align: center;
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  z-index: 2;
+  color: #fff;
+}
+.ring-section .box-ring p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+.ring-section .box-ring p.salam {
+  font-style: italic;
+}
+
+.gambar-mempelai {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.gambar-mempelai img {
+  width: 100px;
+  border-radius: 50%;
+}
+.details-bride {
+  margin: 30px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details-bride p.calon-name,
+.details-bride p.penghubung {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+.details-bride p.penghubung {
+  margin: 20px 0;
+}
+@media screen and (min-width: 480px) {
+  .details-bride {
+    margin: 30px 0;
+  }
+}

@@ -1,0 +1,80 @@
+.protocol {
+  height: 100%;
+}
+.protocol-section {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+.protocol-section .box-protokol {
+  position: relative;
+  max-width: 800px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  color: #000;
+}
+.protocol-section .box-protokol:before {
+  content: '';
+  position: absolute;
+  filter: blur(4px);
+}
+.border {
+  width: 150px;
+  height: 2px;
+  background: #fff;
+  margin: 10px auto 20px;
+}
+.protocol h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+.step-1,
+.step-2,
+.step-3,
+.step-4 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 10px 0;
+}
+.protocol .para-1 {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.protocol .icon-sign {
+  min-width: 50px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.protocol .icons {
+  color: #000;
+}
+
+.step-1 p,
+.step-2 p,
+.step-3 p,
+.step-4 p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.protocol-pesan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  margin: 30px 0 20px;
+}
