@@ -10,9 +10,10 @@ const PlaySound = (
   const [isPlaying, setIsPlaying] = useState(false);
   return (
     <div className='animate__animated animate__fadeInDown animate__delay-1s'>
-      <button onClick={() => setIsPlaying(!isPlaying ? 'Play' : 'Stop')}>
-        <i class='fa fa-music'></i>
-      </button>
+      <i
+        class='fa fa-music'
+        onClick={() => setIsPlaying(!isPlaying ? 'Play' : 'Stop')}
+      ></i>
       <Sound
         url={audio}
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
