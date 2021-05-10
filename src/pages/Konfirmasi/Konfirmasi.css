@@ -91,6 +91,11 @@
   }
 
   .konfirmasi-section {
-    margin: 10px 20px;
+    margin: 0px 20px;
   }
+
+  .konfirmasi .rsvp-form .input-control {
+    margin-bottom: 20px;
+  }
+
 }
