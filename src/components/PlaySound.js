@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sound from 'react-sound';
-import audio from '../audio/lagu-yudi.mp3';
+import audio from '../audio/lagu-indri.mp3';
 
 const PlaySound = (
   handleSongLoading,

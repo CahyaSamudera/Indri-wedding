@@ -1,14 +1,19 @@
 .konfirmasi {
-  height: 90vh;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
+
 .konfirmasi-section {
   height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 20px;
+  margin: 0px 20px;
 }
+
 .konfirmasi-section .box-konfirmasi {
   position: relative;
   max-width: 800px;
@@ -17,24 +22,29 @@
   overflow: hidden;
   color: #000;
 }
+
 .konfirmasi-section .box-konfirmasi:before {
   content: '';
   position: absolute;
   filter: blur(4px);
 }
+
 .konfirmasi .rsvp-form {
   max-width: 600px;
   margin: auto;
   padding: 60px 25px;
 }
+
 .konfirmasi .ucapan-title h4 {
   color: var(--secondary-color);
 }
+
 .konfirmasi .rsvp-form .input-group {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 0 15px;
 }
+
 .konfirmasi .rsvp-form .input-control {
   display: block;
   width: 100%;
@@ -44,19 +54,22 @@
   color: #000000;
   padding: 6px 12px;
   border: 1px solid var(--secondary-color);
-  /* background: transparent; */
 }
+
 .konfirmasi .rsvp-form p.ucapan-nikah {
   color: var(--secondary-color);
 }
+
 .konfirmasi .rsvp-form textarea.input-control {
   height: 120px;
   padding-top: 12px;
   resize: none;
 }
+
 .konfirmasi .rsvp-form .input-control:focus {
   outline: none;
 }
+
 .konfirmasi .rsvp-form .send-form {
   display: flex;
   justify-content: center;
@@ -65,16 +78,20 @@
   transition: all 0.5s ease-in-out;
   margin-bottom: 25px;
 }
+
 .konfirmasi .rsvp-form .send-form button {
   width: 100%;
 }
+
 .konfirmasi .rsvp-form .send-form button:hover {
   transform: scale(1.1);
 }
+
 @media screen and (min-width: 480px) {
   .konfirmasi .rsvp-form .send-form {
     margin-bottom: 0px;
   }
+
   .konfirmasi-section {
     margin: 10px 20px;
   }

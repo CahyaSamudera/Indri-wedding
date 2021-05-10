@@ -36,6 +36,7 @@
 
 .footer-2 .footer-content .couple-name img {
   position: absolute;
+  padding: 20px;
   left: 0;
   top: 0;
   width: 100%;
@@ -45,7 +46,7 @@
 }
 
 .footer-2 .footer-content .couple-name h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Itim', cursive;
   color: var(--secondary-color);
   margin: 0;
