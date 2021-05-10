@@ -22,7 +22,7 @@ const Penutup = () => {
           </p>
           <p className='ayat'>(QS. Ar-Rum: 21)</p>
           <p className='salam-akhir'>
-            Wassalamu'alaikum Warahmatullahi Wabarakatuhu
+            Wassalamu'alaikum Warahmatullahi Wabarakatuh
           </p>
           <p>
             Turut berbahagia, <br />
@@ -30,8 +30,8 @@ const Penutup = () => {
           </p>
           <h3>Hermin & Indri</h3>
           <div className='penutup-button'>
-            <button className='btn btn-light btn-big'>
-              <Link to='/contact' style={{ color: '#000' }}>
+            <button className='btn btn-secondary btn-big'>
+              <Link to='/contact' style={{ color: '#fff' }}>
                 Konfirmasi Kehadiran
               </Link>
             </button>

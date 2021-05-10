@@ -26,15 +26,18 @@ const Cover = () => {
                   Indri
                 </h2>
               </div>
-              <p>Yth,</p>
+              <p className='yth'>Yth,</p>
               <p>{name}</p>
               <div className='border'></div>
               <p className='tempat'>Di Tempat</p>
               <div className='btn-cover'>
-                <button className='btn btn-light text-center'>
+                <button className='btn btn-secondary text-center'>
                   <Link
                     to='/sampul'
-                    style={{ color: '#000', textDecoration: 'none' }}
+                    style={{
+                      color: '#fff',
+                      textDecoration: 'none',
+                    }}
                   >
                     Buka Undangan
                   </Link>

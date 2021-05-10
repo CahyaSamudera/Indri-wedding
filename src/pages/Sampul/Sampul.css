@@ -1,22 +1,28 @@
 .footer {
   padding: 120px 0;
+  height: 90vh;
 }
+
 @media screen and (min-width: 480px) {
   .footer {
     padding: 20px 0;
   }
 }
+
 .footer h4 {
   text-align: center;
-  color: #fff;
-  font-family: 'Great Vibes', cursive;
+  color: var(--secondary-color);
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Itim', cursive;
   font-size: 30px;
 }
+
 .footer .footer-content {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 0 15px;
 }
+
 .footer .footer-content .couple-name {
   width: 400px;
   height: 400px;
@@ -29,6 +35,7 @@
   z-index: 1;
   overflow: hidden;
 }
+
 .footer .footer-content .couple-name img {
   position: absolute;
   left: 0;
@@ -38,27 +45,37 @@
   z-index: -1;
   transform: rotate(100deg);
 }
+
 .footer .footer-content .couple-name h2 {
   font-size: 40px;
-  font-family: 'Great Vibes', cursive;
-  color: #fff;
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Itim', cursive;
+  color: var(--secondary-color);
   margin: 0;
   font-weight: normal;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
+
 .footer .footer-content .couple-name h2 span {
-  font-family: 'Great Vibes', cursive;
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Itim', cursive;
   font-weight: normal;
   display: block;
 }
+
 .footer .footer-content p {
   font-size: 40px;
-  font-family: 'Great Vibes', cursive;
-  color: #fff;
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Itim', cursive;
+  color: var(--secondary-color);
   margin: 0;
   font-weight: normal;
   text-align: center;
   letter-spacing: 2px;
+}
+
+.footer .footer-content p.tanggal {
+  font-size: 30px;
 }

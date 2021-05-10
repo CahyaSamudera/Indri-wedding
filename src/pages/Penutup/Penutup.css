@@ -1,5 +1,5 @@
 .penutup {
-  height: 100%;
+  height: 90vh;
 }
 .penutup-section {
   height: 100%;
@@ -23,7 +23,7 @@
   filter: blur(4px);
 }
 .penutup p {
-  color: #fff;
+  color: var(--secondary-color);
   text-align: center;
   line-height: 1.2;
 }
@@ -38,7 +38,7 @@
   font-style: italic;
 }
 .penutup h3 {
-  color: #fff;
+  color: var(--secondary-color);
   text-align: center;
   font-family: 'Great Vibes', cursive;
 }
@@ -48,9 +48,7 @@
   justify-content: center;
   margin: 20px 0 65px;
   transition: 0.3s all ease-in-out;
-}
-.penutup .penutup-button button {
-  color: #000 !important;
+  font-family: 'Itim', cursive;
 }
 .penutup .penutup-button button:hover {
   transform: scale(1.1);

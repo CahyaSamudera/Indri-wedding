@@ -56,7 +56,7 @@ const Konfirmasi = () => {
             </div>
             <div className='row'>
               <div className='input-group send-form'>
-                <button type='submit' className='send-form btn btn-light'>
+                <button type='submit' className='send-form btn btn-secondary'>
                   Kirim
                 </button>
               </div>

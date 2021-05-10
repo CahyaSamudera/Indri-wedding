@@ -21,8 +21,8 @@ const Sampul = () => {
                   Indri
                 </h2>
               </div>
-              <p className='animate__animated animate__fadeInDown animate__delay-1s'>
-                05.06.2021
+              <p className='animate__animated animate__fadeInDown animate__delay-1s tanggal'>
+                05 06 2021
               </p>
             </div>
           </div>

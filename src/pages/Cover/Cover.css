@@ -1,19 +1,23 @@
 .footer-2 {
   padding: 30px 0;
+  height: 90vh;
 }
+
 .footer-2 p.quote {
   text-align: center;
-  color: #fff;
-  font-family: 'Great Vibes', cursive;
+  color: var(--secondary-color);
+  font-family: 'Itim', cursive;
   font-style: italic;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
 }
+
 .footer-2 .footer-content {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 0 15px;
 }
+
 .footer-2 .footer-content .couple-name {
   width: 300px;
   height: 300px;
@@ -26,6 +30,7 @@
   z-index: 1;
   overflow: hidden;
 }
+
 .footer-2 .footer-content .couple-name img {
   position: absolute;
   left: 0;
@@ -35,41 +40,53 @@
   z-index: -1;
   transform: rotate(100deg);
 }
+
 .footer-2 .footer-content .couple-name h2 {
   font-size: 30px;
-  font-family: 'Great Vibes', cursive;
-  color: #fff;
+  font-family: 'Itim', cursive;
+  color: var(--secondary-color);
   margin: 0;
   font-weight: normal;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
+
 .footer-2 .footer-content .couple-name h2 span {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Itim', cursive;
   font-weight: normal;
   display: block;
 }
+
 .footer-2 .footer-content p {
   font-size: 30px;
-  font-family: 'Great Vibes', cursive;
-  color: #fff;
+  font-family: 'Itim', cursive;
+  color: var(--secondary-color);
   margin: 0;
   font-weight: normal;
   text-align: center;
   letter-spacing: 2px;
 }
+
+.footer-2 .footer-content p.yth {
+  font-size: 22px;
+}
+
 .footer-2 .footer-content p.tempat {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Itim', cursive;
   font-size: 20px;
 }
+
 .footer-2 .footer-content .btn-cover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 20px;
   transition: all 0.5s ease-in-out;
+  font-family: 'Courgette', cursive;
 }
+
 .footer-2 .footer-content .btn-cover button:hover {
   transform: scale(1.1);
 }
