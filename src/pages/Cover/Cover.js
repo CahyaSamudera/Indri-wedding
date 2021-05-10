@@ -27,7 +27,7 @@ const Cover = () => {
                 </h2>
               </div>
               <p className='yth'>Yth,</p>
-              <p>{name}</p>
+              <p className='yth'>{name}</p>
               <div className='border'></div>
               <p className='tempat'>Di Tempat</p>
               <div className='btn-cover'>
