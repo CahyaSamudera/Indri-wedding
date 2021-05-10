@@ -11,13 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 20px;
+  margin: 0px 30px;
 }
 
 .konfirmasi-section .box-konfirmasi {
   position: relative;
   max-width: 800px;
-  padding: 15px;
+  padding: 15px 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
   overflow: hidden;
   color: #000;
@@ -30,7 +30,7 @@
 }
 
 .konfirmasi .rsvp-form {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: auto;
   padding: 60px 25px;
 }
@@ -42,7 +42,7 @@
 .konfirmasi .rsvp-form .input-group {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0 15px;
+  padding: 0;
 }
 
 .konfirmasi .rsvp-form .input-control {
