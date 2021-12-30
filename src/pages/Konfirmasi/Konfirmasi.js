@@ -43,7 +43,7 @@ const Konfirmasi = () => {
               </div>
             </div>
             <p className='text-center ucapan-nikah'>
-              Ucapan untuk Hermin & Indri
+              Ucapan untuk Fadhil & Risky
             </p>
             <div className='row'>
               <div className='input-group'>

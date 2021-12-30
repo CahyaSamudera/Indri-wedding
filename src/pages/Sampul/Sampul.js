@@ -16,13 +16,13 @@ const Sampul = () => {
               <div className='couple-name animate__animated animate__fadeInDown animate__delay-0.5s'>
                 <img src={Flower} alt='Flower Circle' />
                 <h2>
-                  Hermin
+                  Fadhil
                   <span>&</span>
-                  Indri
+                  Kiki
                 </h2>
               </div>
               <p className='animate__animated animate__fadeInDown animate__delay-1s tanggal'>
-                05 06 2021
+                22 01 2022
               </p>
             </div>
           </div>

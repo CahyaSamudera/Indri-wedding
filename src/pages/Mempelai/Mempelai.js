@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../../components/Nav/Navbar';
 import './Mempelai.css';
+import groom from '../../images/groom.jpeg';
+import bride from '../../images/bride.jpeg';
 
 const Mempelai = () => {
   return (
@@ -15,15 +17,37 @@ const Mempelai = () => {
             kami:
           </p>
           <div className='details-bride'>
-            <p className='calon-name'>Hermin</p>
-            <p>Putra keempat</p>
-            <p>Bapak Cemmeng (Alm) & </p>
-            <p>Ibu Mariamu</p>
+            <img className='foto-mempelai' src={groom} alt='' />
+            <div class='social-links'>
+              <a
+                href='https://www.instagram.com/riskyrizalral/'
+                title='instagram'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <i class='fab fa-instagram'></i>
+              </a>
+            </div>
+            <p className='calon-name'>dr. Fadhil Muhammad, B.MedSc(Hons)</p>
+            <p>Putra</p>
+            <p>Capt. Drs. Dhani Harsono (Alm.) & </p>
+            <p>Ibu Dra. Maemuna Djahrie</p>
             <p className='penghubung'>&</p>
-            <p className='calon-name'>Indriyani</p>
-            <p>Putri pertama</p>
-            <p>Bapak Siswadi & </p>
-            <p>Ibu Karsidah</p>
+            <img className='foto-mempelai' src={bride} alt='' />
+            <div class='social-links'>
+              <a
+                href='https://www.instagram.com/riskyrizalral/'
+                title='instagram'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <i class='fab fa-instagram'></i>
+              </a>
+            </div>
+            <p className='calon-name'>Risky Ananda Lubis, S.I.P., M.A</p>
+            <p>Putri</p>
+            <p>Bapak Ilham Siddik Lubis, S.H &</p>
+            <p>Ibu Helfida Siregar, A.Md., Kep</p>
           </div>
         </div>
       </div>

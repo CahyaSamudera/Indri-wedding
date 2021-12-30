@@ -63,6 +63,13 @@
   align-items: center;
 }
 
+.details-bride .foto-mempelai {
+  max-width: 80px;
+  width: 50%;
+  border-radius: 20px;
+  border: 10px solid transparent;
+}
+
 .details-bride p.calon-name,
 .details-bride p.penghubung {
   font-family: 'Great Vibes', cursive;

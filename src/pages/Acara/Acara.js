@@ -11,7 +11,7 @@ const Acara = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date('June 5, 2021 01:00:00').getTime();
+    const countdownDate = new Date('January 22, 2022 01:00:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -60,21 +60,21 @@ const Acara = () => {
               <p className='hari-acara'>
                 Sabtu
                 <br />
-                <span>07.00</span>
+                <span>8.00</span>
               </p>
             </div>
             <div className='col-auto d-flex align-items-center date-acara'>
-              <p>5</p>
+              <p>22</p>
             </div>
             <div className='col-auto text-left lead d-flex align-items-center'>
               <p className='hari-acara'>
-                Juni
+                Januari
                 <br />
-                <span>2021</span>
+                <span>2022</span>
               </p>
             </div>
           </div>
-          <p className='acara-tempat'>Kediaman Mempelai Wanita</p>
+          <p className='acara-tempat'>Grand Amarossa Bekasi</p>
 
           <div className='upper-acara'>
             <div className='border-acara'></div>
@@ -87,26 +87,26 @@ const Acara = () => {
               <p className='hari-acara'>
                 Sabtu
                 <br />
-                <span>13.00</span>
+                <span>10.30</span>
               </p>
             </div>
             <div className='col-auto d-flex align-items-center date-acara'>
-              <p>5</p>
+              <p>22</p>
             </div>
             <div className='col-auto text-left lead d-flex align-items-center'>
               <p className='hari-acara'>
-                Juni
+                Januari
                 <br />
-                <span>2021</span>
+                <span>2022</span>
               </p>
             </div>
           </div>
 
           <div className='alamat'>
-            <p className='acara-tempat'>Kediaman Mempelai Wanita</p>
+            <p className='acara-tempat'>Grand Amarossa Bekasi</p>
             <p>
-              Jl. Dharma Wanita IV RT 010 RW 001 Blok F No. 6, Rawa Buaya,
-              Cengkareng, Jakarta Barat
+              Jl. A.Yani No.88 RT.004/RW.001, Marga Jaya, Kec. Bekasi Sel, Kota
+              Bekasi, Jawa Barat 17141
             </p>
           </div>
           <p className='acara-jam'>Hitung Mundur Acara</p>

@@ -28,7 +28,7 @@ const Penutup = () => {
             Turut berbahagia, <br />
             Segenap keluarga besar
           </p>
-          <h3>Hermin & Indri</h3>
+          <h3>Fadhil & Risky</h3>
           <div className='penutup-button'>
             <button className='btn btn-secondary btn-big'>
               <Link to='/contact' style={{ color: '#fff' }}>

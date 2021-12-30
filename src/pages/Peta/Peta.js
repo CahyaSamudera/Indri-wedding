@@ -9,15 +9,15 @@ const Peta = () => {
         <div className='box-peta'>
           <h5>Peta Lokasi</h5>
           <div className='garis-peta'></div>
-          <p>Kediaman Mempelai Wanita</p>
+          <p>Hotel Amaroossa Grande Bekasi</p>
           <p>
-            Jl. Dharma Wanita IV RT 010 RW 001 Blok F No. 6, Rawa Buaya,
-            Cengkareng, Jakarta Barat
+            Jl. A.Yani No.88 RT.004/RW.001, Marga Jaya, Kec. Bekasi Sel, Kota
+            Bekasi, Jawa Barat 17141
           </p>
           <div className='contact-map'>
             <iframe
               title='hermin & indri wedding location'
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4036.1504428522435!2d106.73148199164484!3d-6.155947205038239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7a5d870d86d%3A0x11bd4c77ae373071!2sIndriyani&#39;s%20Home!5e0!3m2!1sen!2sid!4v1620649577658!5m2!1sen!2sid'
+              src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.399988869382!2d106.9920991!3d-6.250553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fd1ad1e12b3c089!2sHotel%20Amaroossa%20Grande%20Ahmad%20Yani%20Bekasi!5e0!3m2!1sid!2sid!4v1640838784765!5m2!1sid!2sid'
               width='100%'
               height='auto'
               style={{ border: '0' }}
@@ -28,7 +28,7 @@ const Peta = () => {
           <div className='button'>
             <a
               className='btn btn-secondary btn-big'
-              href='https://goo.gl/maps/p7snVMEfzqpjchxe9'
+              href='https://g.page/hotel-amaroossa-grande?share'
               target='_blank'
               rel='noreferrer'
             >

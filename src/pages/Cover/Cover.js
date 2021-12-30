@@ -21,9 +21,9 @@ const Cover = () => {
               <div className='couple-name'>
                 <img src={Flower} alt='Flower Circle' />
                 <h2>
-                  Hermin
+                  Fadhil
                   <span>&</span>
-                  Indri
+                  Risky
                 </h2>
               </div>
               <p className='yth'>Yth,</p>
