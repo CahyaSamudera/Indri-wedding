@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import './Cover.css';
 import { Link } from 'react-router-dom';
 import Flower from '../../images/flower-circle.png';
-import foto3 from '../../images/logo-5.jpeg';
+// import foto3 from '../../images/logo-5.jpeg';
 
 const Cover = () => {
   const { search } = useLocation();
@@ -14,7 +14,6 @@ const Cover = () => {
     <div>
       <footer className='footer-2 animate__animated animate__fadeInDown'>
         <div className='container'>
-          <img src={foto3} alt='' className='foto-cover' />
           <p className='quote'>and so their adventure begins....</p>
           <div className='row'>
             <div className='footer-content'>

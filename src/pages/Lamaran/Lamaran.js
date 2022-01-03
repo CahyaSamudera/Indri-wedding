@@ -18,7 +18,7 @@ export const Lamaran = () => {
           <h2 className='sub-headline'>Lamaran</h2>
         </div>
         <SRLWrapper>
-          <div className='container2'>
+          <div className='content2'>
             <div className='gallery'>
               <img src={Lamaran1} alt='' />
             </div>
@@ -32,7 +32,7 @@ export const Lamaran = () => {
               <img src={Lamaran4} alt='' />
             </div>
           </div>
-          <div className='container2'>
+          <div className='content2'>
             <div className='gallery'>
               <img src={Lamaran1} alt='' />
             </div>
