@@ -19,13 +19,13 @@ const Navbar = () => {
           <span className='material-icons nav__icon'>event</span>
           <span className='nav__text'>Acara</span>
         </Link>
-        <Link to='peta' className='nav__link'>
-          <span className='material-icons nav__icon'>map</span>
-          <span className='nav__text'>Peta</span>
+        <Link to='lamaran' className='nav__link'>
+          <span className='material-icons nav__icon'>trip_origin</span>
+          <span className='nav__text'>Lamaran</span>
         </Link>
-        <Link to='protocol' className='nav__link'>
-          <span className='material-icons nav__icon'>library_books</span>
-          <span className='nav__text'>Protokol</span>
+        <Link to='angpao' className='nav__link'>
+          <span className='material-icons nav__icon'>card_giftcard</span>
+          <span className='nav__text'>E-Angpao</span>
         </Link>
         <Link to='penutup' className='nav__link'>
           <span className='material-icons nav__icon'>lock_open</span>

@@ -16,7 +16,7 @@ const Peta = () => {
           </p>
           <div className='contact-map'>
             <iframe
-              title='hermin & indri wedding location'
+              title='Fadhil & Risky wedding location'
               src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.399988869382!2d106.9920991!3d-6.250553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fd1ad1e12b3c089!2sHotel%20Amaroossa%20Grande%20Ahmad%20Yani%20Bekasi!5e0!3m2!1sid!2sid!4v1640838784765!5m2!1sid!2sid'
               width='100%'
               height='auto'

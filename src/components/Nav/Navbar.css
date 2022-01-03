@@ -20,7 +20,7 @@
   white-space: nowrap;
   font-family: sans-serif;
   font-size: 13px;
-  color: var(--secondary-color);
+  color: var(--third-color);
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;

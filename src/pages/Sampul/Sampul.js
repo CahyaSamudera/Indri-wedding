@@ -18,7 +18,7 @@ const Sampul = () => {
                 <h2>
                   Fadhil
                   <span>&</span>
-                  Kiki
+                  Risky
                 </h2>
               </div>
               <p className='animate__animated animate__fadeInDown animate__delay-1s tanggal'>

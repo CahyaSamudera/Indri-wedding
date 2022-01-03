@@ -49,13 +49,13 @@ const Acara = () => {
       <div className='acara-section animate__animated animate__fadeInDown'>
         <div className='box-acara'>
           <h5>Rangkaian Acara</h5>
-          <div className='upper-acara'>
+          {/* <div className='upper-acara'>
             <div className='border-acara'></div>
             <h4>Akad Nikah</h4>
             <div className='border-acara'></div>
-          </div>
+          </div> */}
 
-          <div className='row no-gutters d-flex justify-content-center'>
+          {/* <div className='row no-gutters d-flex justify-content-center'>
             <div className='col-auto text-left lead d-flex align-items-center pr-3'>
               <p className='hari-acara'>
                 Sabtu
@@ -74,7 +74,7 @@ const Acara = () => {
               </p>
             </div>
           </div>
-          <p className='acara-tempat'>Grand Amarossa Bekasi</p>
+          <p className='acara-tempat'>Grand Amarossa Bekasi</p> */}
 
           <div className='upper-acara'>
             <div className='border-acara'></div>
@@ -135,6 +135,27 @@ const Acara = () => {
                 <small>Detik</small>
               </p>
             </section>
+          </div>
+          <div className='contact-map'>
+            <iframe
+              title='Fadhil & Risky wedding location'
+              src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.399988869382!2d106.9920991!3d-6.250553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fd1ad1e12b3c089!2sHotel%20Amaroossa%20Grande%20Ahmad%20Yani%20Bekasi!5e0!3m2!1sid!2sid!4v1640838784765!5m2!1sid!2sid'
+              width='100%'
+              height='auto'
+              style={{ border: '0' }}
+              allowfullscreen=''
+              loading='lazy'
+            ></iframe>
+          </div>
+          <div className='button-peta'>
+            <a
+              className='btn btn-secondary btn-big'
+              href='https://g.page/hotel-amaroossa-grande?share'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Buka Map
+            </a>
           </div>
         </div>
       </div>

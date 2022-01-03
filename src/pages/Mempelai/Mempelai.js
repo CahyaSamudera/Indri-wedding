@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from '../../components/Nav/Navbar';
 import './Mempelai.css';
-import groom from '../../images/groom.jpeg';
-import bride from '../../images/bride.jpeg';
+// import groom from '../../images/groom.jpeg';
+// import bride from '../../images/bride.jpeg';
+import foto2 from '../../images/mempelai-9.jpeg';
 
 const Mempelai = () => {
   return (
@@ -16,11 +17,16 @@ const Mempelai = () => {
             restu Bapak/Ibu/Saudara/i dalam melangsungkan pernikahan putra-putri
             kami:
           </p>
+          <div className='foto-berdua'>
+            <img src={foto2} alt='Mempelai-2' className='mempelai-7' />
+          </div>
           <div className='details-bride'>
-            <img className='foto-mempelai' src={groom} alt='' />
+            {/* <img className='foto-mempelai' src={groom} alt='' /> */}
+
+            <p className='calon-name'>dr. Fadhil Muhammad, B.MedSc(Hons)</p>
             <div class='social-links'>
               <a
-                href='https://www.instagram.com/riskyrizalral/'
+                href='https://www.instagram.com/fadhilmd/'
                 title='instagram'
                 target='_blank'
                 rel='noreferrer noopener'
@@ -28,12 +34,13 @@ const Mempelai = () => {
                 <i class='fab fa-instagram'></i>
               </a>
             </div>
-            <p className='calon-name'>dr. Fadhil Muhammad, B.MedSc(Hons)</p>
             <p>Putra</p>
-            <p>Capt. Drs. Dhani Harsono (Alm.) & </p>
+            <p>Bapak Dhani Harsono (Alm.) & </p>
             <p>Ibu Dra. Maemuna Djahrie</p>
             <p className='penghubung'>&</p>
-            <img className='foto-mempelai' src={bride} alt='' />
+            {/* <img className='foto-mempelai' src={bride} alt='' /> */}
+
+            <p className='calon-name'>Risky Ananda Lubis, S.I.P., M.A</p>
             <div class='social-links'>
               <a
                 href='https://www.instagram.com/riskyrizalral/'
@@ -44,7 +51,6 @@ const Mempelai = () => {
                 <i class='fab fa-instagram'></i>
               </a>
             </div>
-            <p className='calon-name'>Risky Ananda Lubis, S.I.P., M.A</p>
             <p>Putri</p>
             <p>Bapak Ilham Siddik Lubis, S.H &</p>
             <p>Ibu Helfida Siregar, A.Md., Kep</p>

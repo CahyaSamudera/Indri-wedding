@@ -5,6 +5,15 @@
   top: 0;
   bottom: 0;
 }
+.footer-2 .container {
+  padding-top: 80px;
+}
+.footer-2 .foto-cover {
+  margin-top: 30px !important;
+  width: 250px;
+  border-radius: 20px;
+  border: 10px solid transparent;
+}
 
 .footer-2 p.quote {
   text-align: center;
@@ -46,7 +55,7 @@
 }
 
 .footer-2 .footer-content .couple-name h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Itim', cursive;
   color: var(--secondary-color);
   margin: 0;
@@ -89,6 +98,7 @@
   margin-top: 20px;
   transition: all 0.5s ease-in-out;
   font-family: 'Courgette', cursive;
+  padding-bottom: 20px;
 }
 
 .footer-2 .footer-content .btn-cover button:hover {

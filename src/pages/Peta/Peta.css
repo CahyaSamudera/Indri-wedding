@@ -60,7 +60,7 @@
   height: 100%;
 }
 
-.peta-section .box-peta .button {
+.button-peta {
   display: flex;
   justify-content: center;
   align-items: center;

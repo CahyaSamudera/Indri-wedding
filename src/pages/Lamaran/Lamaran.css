@@ -1,0 +1,79 @@
+.lamaran h1 {
+  color: var(--secondary-color);
+}
+/* #gallery {
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.5) url('../../images/Terrariums.jpeg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    padding-top: 70px;
+  } */
+.gallery {
+  padding-bottom: 20px;
+}
+.gallery .global-headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 30px 0;
+}
+.gallery .global-headline h2 {
+  color: #fff;
+}
+.container2 {
+  max-width: 100%;
+  margin: auto;
+  /* background: #f2f2f2; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+}
+.gallery {
+  margin: 6px;
+  border: 1px solid #ccc;
+  display: block;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+
+  transition: transform 0.5s ease;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
+.gallery p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+  #gallery .container2 {
+    max-width: 100%;
+    margin: auto;
+    background: #f2f2f2;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+
+  .gallery img {
+    width: 85%;
+    height: 85%;
+  }
+  .gallery h2 {
+    font-size: 26px;
+  }
+}
